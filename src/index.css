@@ -62,3 +62,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+img {
+  width: 100px;
+  padding: 30px;
+}
