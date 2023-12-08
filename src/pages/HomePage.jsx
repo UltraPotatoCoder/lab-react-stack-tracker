@@ -7,7 +7,7 @@ function HomePage({ companies }) {
       <ul>
         {companies.map(company => (
           <li key={company.id}>
-            <Link to={`/company/{company.slug}`}>
+            <Link to={`/company/${company.slug}`}>
               <img src={company.logo} alt={company.name} />
               {company.name}
             </Link>
